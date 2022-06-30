@@ -1,0 +1,44 @@
+input {
+    position: absolute;
+    left: 210px;
+}
+    
+#label{
+    margin-top: 50px;
+
+}
+    
+.subbutt{
+    left: 180px;
+    margin-top: 30px;
+    block-size: 30px;
+    font-family: fantasy;
+    font-size: 20px;
+    color:darkgreen
+}    
+
+div {
+
+    margin-top: 20px;
+}
+
+.TopText{
+
+    position: relative;
+    top: 90px;
+    text-align: center;
+    width: 500px;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+.BotText{
+
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    width: 500px;
+    font-size: 40px;
+    font-family: fantasy;
+
+}
