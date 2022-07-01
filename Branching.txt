@@ -1,0 +1,6 @@
+git checkout -b
+Fast Forward handles linear code commits, recursive merging handles merging from parallel branches
+git checkout
+git branch -d
+merge conflicts happen when two changes are made that are mutually exclusive of each other, and the user tries to merge them
+
