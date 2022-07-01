@@ -1,0 +1,21 @@
+mkdir first
+cd first
+touch person.txt
+mv person.txt another.txt
+cp another.txt copy.txt
+rm copy.txt
+cp -r first/ second/
+rm -lf second/
+
+
+1. man command brings up the manual for the command that you type after it. "man rm" shows what rm can do, and you can exit the manual with "q"
+2. "l" uses a long listing format. "a" includes hidden files (that start with .)
+3. Alt + left/right 
+4. Control + e
+5. Control + a
+6. Control + w
+7. shell is a command line interpreter, and a terminal allows user to enter commands that communicate with shell
+8. absolute path is a path starting with the entire hard drive
+9. relative pathe is the path relative to a certain file (usually the current directory)
+10. flags add function to a command. uses such as -l to list things differently, or -f to force a delete
+11. -f forces a delete for a file, -r removes the contents of a file recursively. together, they remove a file and its contents
