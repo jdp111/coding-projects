@@ -1,0 +1,35 @@
+1. HTTP is a protocol for a machine talking to a server. This is the default protocol for the web
+
+2. an address for a page on the web. tells the machine where to search
+
+3. domain name system turns domain names into ip addresses to locate websites
+
+4. these are additional user-chosen parameters that are added to the url to carry over to another page
+
+5. GET and POST. GET retrieves information from a site and delivers it to you without changing it. POST 
+changes something on the site, such as a user input that is archived.
+
+6. a combination of headers and other information that gets sent to the server
+
+7. a combination of headers, access information, and a body of code sent to your machine when requested to 
+display a website or provide other functionality
+
+8. headers are variables that store information about the user or the website. Ex: time sent or error code
+
+9. determines protocol is http, sends to DNS which translates "somesite.com" into an ip address for a server. 
+In that server, directs to "page.html" and displays the body of code returned. 
+
+Part 2:
+
+1.
+curl -H "Accept: text/plain" "https://icanhazdadjoke.com/search?term=pirate"
+What does a pirate pay for his corn? A buccaneer!
+Why couldn't the kid see the pirate movie? Because it was rated arrr!
+What did the pirate say on his 80th birthday? Aye Matey!
+Why do pirates not know the alphabet? They always get stuck at "C".
+
+2.
+ip address: 104.21.86.174
+
+
+
